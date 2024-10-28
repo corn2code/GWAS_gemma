@@ -16,7 +16,7 @@ This script is designed to run a Genome-Wide Association Study (GWAS) using GEMM
 #SBATCH --partition=jclarke,batch,guest    # Partitions to submit the job to
 #SBATCH --output=output.log/%x_%a.out      # Standard output file name pattern (%x: job name, %a: array index)
 #SBATCH --mail-type=ALL                    # Send email notifications for job start, end, and fail events
-#SBATCH --mail-user=jtorres-rodriguez2@unl.edu # Email for job notifications
+#SBATCH --mail-user= <> # Email for job notifications
 ```
 
 ## Script Functionality
