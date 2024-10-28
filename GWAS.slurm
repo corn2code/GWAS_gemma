@@ -7,7 +7,7 @@
 #SBATCH --partition=jclarke,batch,guest
 #SBATCH --output=output.log/%x_%a.out
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=jtorres-rodriguez2@unl.edu
+#SBATCH --mail-user= <>
 
 # First we ensure a clean running environment:
 module purge
